@@ -33,6 +33,7 @@ final class GreeterTest extends TestCase
             'nama pendek'       => ['Ani', 'Hello, Ani!'],
             'nama dengan spasi' => ['Siti Aminah', 'Hello, Siti Aminah!'],
             'huruf kecil'       => ['dedi', 'Hello, dedi!'],
+            'spasi di tepi'     => ['  Ani  ', 'Hello,   Ani  !'],
         ];
     }
 }
